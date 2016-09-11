@@ -18,7 +18,7 @@ func main() {
     argsWithoutProg := os.Args[1:]
 
     // You can get individual args with normal indexing.
-    arg := os.Args[3]
+    arg := os.Args[1]
 
     fmt.Println(argsWithProg)
     fmt.Println(argsWithoutProg)
